@@ -1,22 +1,22 @@
 class script(object):
     START_TXT = """<b>Hey {} 👋🏼</b>,
-<b>I'm <a href=https://t.me/MoviGenX>Media Search Bot</a></b>🤭
+<b>I'm <a href=https://t.me/Movieable>Media Search Bot</a></b>🤭
 <b>Just Add me to your Group And make Admin there and send me the name of media on that Group.</b>
-Owner - @AnnihilusOP 😁"""
+Owner - @Vijay_patil_9 😁"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """⭐ Name: <b>@MoviZenXFilterBot</b>
-⭐ Creators: <a href=https://t.me/MoviGenX>©️Team MoviGenX</a>
+    ABOUT_TXT = """⭐ Name: <b>@MovieableFilterBot</b>
+⭐ Creators: <a href=https://t.me/Movieable>©️Team MovieAble</a>
 ⭐ Library: Pyrogram
 ⭐ Language: <code>Python 3.2</code>
 ⭐ Build Status: V2.0.1 [Beta]
-⭐ Daddy's Name: <a href=https://t.me/AnnihilusOP>Saikat🤭</a>"""
+⭐ Daddy's Name: <a href=https://t.me/vijay_patil_9>VijayRaj🙂</a>"""
     SOURCE_TXT = """<b>NOTE:</b>
 -○  ɪᴛ's ɴᴏᴛᴇ ᴄᴏᴍᴘʟɪᴄᴀᴛᴇᴅ...🤓
--○  ᴄʀᴇᴀᴛᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ @MoviZenXFilterBot ᴀᴅᴍɪɴ ᴛʜᴇʀᴇ, ᴀɴᴅ sᴛᴀʀᴛ ᴀsᴋɪɴɢ ᴍᴏᴠɪᴇs ᴏɴ ᴛʜᴀᴛ ɢʀᴏᴜᴘ 
+-○  ᴄʀᴇᴀᴛᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ @MovieableFilterBot ᴀᴅᴍɪɴ ᴛʜᴇʀᴇ, ᴀɴᴅ sᴛᴀʀᴛ ᴀsᴋɪɴɢ ᴍᴏᴠɪᴇs ᴏɴ ᴛʜᴀᴛ ɢʀᴏᴜᴘ 
 ᴇɴᴊᴏʏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs 🔥❤️  
 <b>DEVS:</b>
-- <a href=https://t.me/AnnihilusOP>Saikat🤭</a>"""
+- <a href=https://t.me/vijay_patil_9>VijayRaj🙂</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
