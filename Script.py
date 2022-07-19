@@ -32,10 +32,10 @@ Owner - @Vijay_patil_9 😁"""
 • /del - <code>delete a specific filter in chat</code>
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
-- @MoviZenXFilterBot Supports both url and alert inline buttons.
+- @MovieableFilterBot Supports both url and alert inline buttons.
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. @MoviZenXFilterBot supports buttons with any telegram media type.
+2. @MovieableFilterBot supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 <b>URL buttons:</b>
 <code>[Button Text](buttonurl:https://t.me/Movieable)</code>
