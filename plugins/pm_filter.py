@@ -414,7 +414,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🎯 Support Group 🎯', url='https://t.me/Clubhouse_Movieable'),
             InlineKeyboardButton('⚡ Updates Channel⚡', url='https://t.me/Movieable')
             ],[
-            InlineKeyboardButton('💯 Share Our Bot 💯', url='https://t.me/share/url?url=MoviGenX%20Media%20Search%20Bot%20%E2%9A%A1%0A%0A%E2%9C%85%20Faster%20And%20Efficient%20%F0%9F%8F%8D%EF%B8%8F%F0%9F%92%A8%0A%E2%9C%85%20Work%20In%20Group%20For%20Free%20%F0%9F%A4%A9%0A%E2%9C%85%20Highly%20Accurate%20Results%20%F0%9F%98%97%0A%E2%9C%85%20Also%20some%20Other%20feature%20%F0%9F%A4%9F%F0%9F%8F%BD%0A%0AAdd%20Me%20As%20Admin%20In%20Any%20Group%20To%20Search%20For%20Movies%20%F0%9F%8D%BF%0A%0A%E2%94%8F%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%93%0A%20%20%20%20%20%40MoviGenXFilterBoT%E2%9A%A1%0A%E2%94%97%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%9B')
+            InlineKeyboardButton('💯 Share Our Bot 💯', url='https://t.me/share/url?url=Movieable%20Media%20Search%20Bot%20%E2%9A%A1%0A%0A%E2%9C%85%20Faster%20And%20Efficient%20%F0%9F%8F%8D%EF%B8%8F%F0%9F%92%A8%0A%E2%9C%85%20Work%20In%20Group%20For%20Free%20%F0%9F%A4%A9%0A%E2%9C%85%20Highly%20Accurate%20Results%20%F0%9F%98%97%0A%E2%9C%85%20Also%20some%20Other%20feature%20%F0%9F%A4%9F%F0%9F%8F%BD%0A%0AAdd%20Me%20As%20Admin%20In%20Any%20Group%20To%20Search%20For%20Movies%20%F0%9F%8D%BF%0A%0A%E2%94%8F%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%93%0A%20%20%20%20%20%40MovieableFilterBoT%E2%9A%A1%0A%E2%94%97%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%9B')
         ], [
             InlineKeyboardButton('📎 Help', callback_data='help'),
             InlineKeyboardButton('😁 About', callback_data='about')
@@ -684,8 +684,8 @@ async def auto_filter(client, msg, spoll=False):
         )
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡ Movie Updates", url="https://t.me/MoviGenX"),
-        InlineKeyboardButton("Bot Updates ⚡", url="https://t.me/MoviZenXFlix")]
+        InlineKeyboardButton("⚡ Movie Updates", url="https://t.me/Movieable"),
+        InlineKeyboardButton("Bot Updates ⚡", url="https://t.me/MBotupdates")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
@@ -722,7 +722,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>Hey {message.from_user.mention}</b>👋🏻\n<b>🔍 Here is Your Query Result</b>: <code>{search}</code>\n<b>© Powered by</b>: <b><a href=https://t.me/MoviZenXFlix>{message.chat.title}</a></b>\nㅤㅤㅤㅤ\n<b><u>ɪ𝙵 ʏᴏᴜ ᴅᴏ ɴᴏᴛ sᴇᴇ ᴛʜᴇ 𝙵ɪʟᴇ𝚂 ᴏ𝙵 𝚈𝚘𝚞𝚛 𝚀𝚞𝚎𝚛𝚢 ʏᴏᴜ ᴀ𝚂ᴋᴇᴅ 𝙵ᴏʀ . ʟᴏᴏᴋ ᴀᴛ ɴᴇ𝚇ᴛ ᴘᴀɢᴇ</b></u>"
+        cap = f"<b>Hey {message.from_user.mention}</b>👋🏻\n<b>🔍 Here is Your Query Result</b>: <code>{search}</code>\n<b>© Powered by</b>: <b><a href=https://t.me/Movieable>{message.chat.title}</a></b>\nㅤㅤㅤㅤ\n<b><u>ɪ𝙵 ʏᴏᴜ ᴅᴏ ɴᴏᴛ sᴇᴇ ᴛʜᴇ 𝙵ɪʟᴇ𝚂 ᴏ𝙵 𝚈𝚘𝚞𝚛 𝚀𝚞𝚎𝚛𝚢 ʏᴏᴜ ᴀ𝚂ᴋᴇᴅ 𝙵ᴏʀ . ʟᴏᴏᴋ ᴀᴛ ɴᴇ𝚇ᴛ ᴘᴀɢᴇ</b></u>"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
