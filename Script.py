@@ -38,7 +38,7 @@ Owner - @Vijay_patil_9 😁"""
 2. @MoviZenXFilterBot supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/MoviGenX)</code>
+<code>[Button Text](buttonurl:https://t.me/Movieable)</code>
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
@@ -64,7 +64,7 @@ Owner - @Vijay_patil_9 😁"""
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of @MoviZenXFilterBot
+these are the extra features of @MovieableFilterBot
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specified user.</code>
