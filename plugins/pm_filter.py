@@ -722,22 +722,25 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>Hey {message.from_user.mention}</b>👋🏻\n<b>🔍 Here is Your Query Result</b>: <code>{search}</code>\n<b>© Powered by</b>: <b><a href=https://t.me/Movieable>{message.chat.title}</a></b>\nㅤㅤㅤㅤ\n<b><u>ɪ𝙵 ʏᴏᴜ ᴅᴏ ɴᴏᴛ sᴇᴇ ᴛʜᴇ 𝙵ɪʟᴇ𝚂 ᴏ𝙵 𝚈𝚘𝚞𝚛 𝚀𝚞𝚎𝚛𝚢 ʏᴏᴜ ᴀ𝚂ᴋᴇᴅ 𝙵ᴏʀ . ʟᴏᴏᴋ ᴀᴛ ɴᴇ𝚇ᴛ ᴘᴀɢᴇ</b></u>"
+        cap = f"<b>Hey {message.from_user.mention}</b>👋🏻\n<b>🔍 Here is Your Query Result</b>: <code>{search}</code>\n<b>© Powered by</b>: <b><a href=https://t.me/MovieAble>{message.chat.title}</a></b>\nㅤㅤㅤㅤ\n<b><i>⚠️ This message will be Auto-deleted after 20 Minute to avoid copyright issues.</b></i>"
     if imdb and imdb.get('poster'):
         try:
-            await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
-                                      reply_markup=InlineKeyboardMarkup(btn))
+            hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            await asyncio.sleep(1200)
+            await hehe.delete()            
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
-            await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
+            hmm = await message.reply_photo(photo=poster, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            await asyncio.sleep(1200)            
         except Exception as e:
             logger.exception(e)
-            await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+            fek = await message.reply_text(text=cap, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(btn))
+            await asyncio.sleep(1200)            
     else:
-        await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
-    if spoll:
-        await msg.message.delete()
+        fuk = await message.reply_text(text=cap, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(btn))
+        await asyncio.sleep(1200)
+        await fuk.delete()
 
 
 async def advantage_spell_chok(msg):
